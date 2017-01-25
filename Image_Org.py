@@ -1,7 +1,9 @@
+#this script organice Sequoia images in folders per Band
+
 #! /usr/bin/python3
 import os, shutil, sys
 
-root_path = '/home/helman/Projects/Drones/San_Jose_de_Bavaria2/Bavaria_3_Nov/'
+root_path = '/Path/to/project'
 folders = ['Green_Folder','NIR_Folder','Red_Folder','REG_Folder','RGB_Folder']
 for folder in folders:
 	os.mkdir(os.path.join(root_path,folder))
